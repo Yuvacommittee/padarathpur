@@ -53,18 +53,23 @@ ul li.active a{
       transform: translate(-50%,-50%);
 }
 
+
+.title h2{
+	font-size: 50px;
+	text-decoration: none;
+	color: red;
+	padding: 10px 40px;
+	border: 2px solid transparent;
+	transition: 0.6s ease;
+
+}
 .title h1{
 	color: lightgreen;
 	font-size: 70px;
 
 
 }
-.title h2{
-	color: lightgreen;
-	font-size: 60px;
 
-	
-}
 
 .box {
 	position: absolute;

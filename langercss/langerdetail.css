@@ -54,6 +54,16 @@ ul li.active a{
 
 }
 
+.title h6{
+	font-size: 50px;
+	text-decoration: none;
+	color: red;
+	padding: 10px 40px;
+	border: 2px solid transparent;
+	transition: 0.6s ease;
+
+}
+
 
 .title h5{
 	font-size: 30px;
