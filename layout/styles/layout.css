@@ -500,3 +500,17 @@ table a, #comments a{background-color:inherit;}
 	.scrollable table{margin:0; padding:0; white-space:nowrap;}
 }
 
+/* Other
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    left: 10px;
+    margin: .4rem 0;
+}
