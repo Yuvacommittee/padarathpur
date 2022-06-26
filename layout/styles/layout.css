@@ -346,6 +346,23 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 
 .rounded{color:inherit; background-color:#F9F9F9;}
+.rounded1{color:inherit; .contact100-form-bgbtn 
+    position: absolute;
+    z-index: -1;
+    background: #a64bf4;
+    background: -webkit-linear-gradient(left,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    background: -o-linear-gradient(left,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    background: -moz-linear-gradient(left,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    background: linear-gradient(left,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    top: 0;
+    left: -100%;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+};}
+
+
 
 
 /* Rows */
