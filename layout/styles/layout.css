@@ -336,8 +336,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{background: linear-gradient(120deg,#2980b9,#8e44ad);
-  }
+body{color:#F9F9F9;background-color: #cadeeb;}
 
 a{color:whitesmoke;}
 
@@ -424,6 +423,7 @@ label span{color:#FF0000; background-color:inherit;}
     -moz-transition: all .4s;
     transition: all .4s;
 };}
+
 
 
 
