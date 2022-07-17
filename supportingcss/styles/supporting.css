@@ -68,7 +68,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 .container{padding:20px 10px;}
 
-.container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container .heading{padding-bottom:8px; border-bottom:1px solid;}
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container .heading{padding-bottom:8px; border-bottom:1px solid;font-size: 30px;}
 
 /* Content */
 .container #content{}
@@ -231,7 +231,7 @@ td{border-width:0 1px;}
   color: #FFF;
 }
 .responstable td {
-  display: block;
+   display: inline-block;;
 }
 .responstable td:first-child {
   padding-top: .5em;
@@ -239,7 +239,7 @@ td{border-width:0 1px;}
 .responstable td:last-child {
   padding-bottom: .5em;
 }
-.responstable td:before {
+.responstable td:middle {
   content: attr(data-th) ": ";
   font-weight: bold;
   width: 8em;
@@ -256,13 +256,13 @@ td{border-width:0 1px;}
   }
 }
 .responstable th, .responstable td {
-  text-align: left;
-  margin: .5em 1em;
+  text-align: center;
+  margin: 2em 1em;
 }
 @media (min-width: 480px) {
   .responstable th, .responstable td {
     display: table-cell;
-    padding: 1em;
+    padding: .2em;
   }
   .responstable th:first-child, .responstable td:first-child {
     text-align: center;
@@ -277,7 +277,6 @@ td{border-width:0 1px;}
 #gallery figure figcaption{display:block; width:100%; clear:both;}
 #gallery li{margin-bottom:30px;}
 #gallery li a{display:block;}
-
 
 
 /* Portfolio
@@ -339,8 +338,8 @@ td{border-width:0 1px;}
 --------------------------------------------------------------------------------------------------------------- */
 body{background: linear-gradient(90deg,#2980b9,#8e44ad);}
 
-a{color:#170eb3;}
 
+a{color:#cb1eb;}
 
 hr, .borderedbox{border-color:#D7D7D7;}
 
@@ -349,14 +348,13 @@ label span{color:#FF0000; background-color:inherit;}
 .rounded{color:inherit; background-color:#F9F9F9;}
 
 
-
 /* Rows */
 .row0, .row0 a{color:#F9F9F9; background-color:#06213F;}
 .row1{color:#979797; background-color:#06213F;}
 .row1 a{color:#F9F9F9; background-color:inherit;}
 .row2, .row2 a{color:#06213F; background-color:inherit;}
-.row3{color:#979797; background-color:inherit;}
-.row4{color:#ed1212; background-color:inherit;}
+.row3{color:#000000; font-size: 14px; background-color:inherit;}
+.row4{color:#e90b36; background-color:inherit;}
 .row5, .row5 a{color:#55ABDA; background-color:#06213F;}
 
 
@@ -377,8 +375,12 @@ label span{color:#FF0000; background-color:inherit;}
 
 
 /* Content Area */
-.container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container .heading{border-color:#D7D7D7;}
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container .heading{border-color:#ea2b2b;text-align: center;}
 
+h1 {
+    border-color: #ea2b2b;
+    text-align: center;
+}
 #twitter{color:#FFFFFF; background-color:#06213F;}
 #twitter div:first-child{border-color:#FFFFFF;}
 
@@ -436,7 +438,7 @@ table a, #comments a{background-color:inherit;}
 /* Smartphone + Tablet
 ---------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width:180px) and (max-width:750px) {
-	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
+	.imgl, .imgr{display:inline-block; float:left; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
 }
