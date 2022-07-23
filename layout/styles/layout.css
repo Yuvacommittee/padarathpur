@@ -398,10 +398,10 @@ label span{color:#FF0000; background-color:inherit;}
     position: absolute;
     z-index: -1;
     background: #a64bf4;
-    background: -webkit-linear-gradient(left,#09f4e6,#09f41f,#09f41f,#09f4e6);
-    background: -o-linear-gradient(left,#09f4e6,#09f41f,#09f41f,#09f4e6);
-    background: -moz-linear-gradient(left,#09f4e6,#09f41f,#09f41f,#09f4e6);
-    background: linear-gradient(left,#09f4e6,#09f41f,#09f41f,#09f4e6);
+    background: -webkit-linear-gradient(left,#09f4e6,#33bd40,#33bd40,#09f4e6);
+    background: -o-linear-gradient(left,#09f4e6,#33bd40,#33bd40,#09f4e6);
+    background: -moz-linear-gradient(left,#09f4e6,#33bd40,#33bd40,#09f4e6);
+    background: linear-gradient(left,#09f4e6,#33bd40,#33bd40,#09f4e6);
     top: 0;
     left: -100%;
     -webkit-transition: all .4s;
