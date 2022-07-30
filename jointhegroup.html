@@ -148,21 +148,49 @@
 <!-- ################################################################################################### --> 
 <div class="wrapper row4">
 <div class="rounded">
-<nav id="headline" class="clear">
+<<div class="container py-5" >
+  <div class="row" >
+    <div class="col-lg-5 col-md-8 mx-auto shadow border bg-white p-5 rounded" >
+      <h2 class="text-center fw-bold mb-4 animated infinite pulse" ><img src="img/new.gif" alt="new"><u>Join US </u></h2>
+      <form name="google-sheet" >
+        <div class="form-group mb-4">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="enter your name" required>
+          </div>
+          <div class="form-group mb-4">
+          <label for="mobile number" class="form-label">Mobile Number</label>
+          <input type="number" id="mobile number" name="mobile number" class="form-control" placeholder="enter your mobile number" required>
+          </div>
+          
+          <div>
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <button class="btn btn-danger" type="submit">Reset the form</button>
 
-<ul class="clear">
+          </div>
+       </form>  
+    </div>
+  </div>
+  
+</div>
 
-               <p>
-                 <h2>
-                     
-                 <h3 class="animated infinite pulse" align="center"> <u>Join Fill Form</u></h3> 
-                 <a href="https://forms.gle/aFxVQQzxh9maK7NH6" target="blank">
-                   <img src="img/formgoogle.png"> 
-                   <h3>Click here</h3>  
-        
-               </a>
 
-      </h2>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+             const scriptURL = 'https://script.google.com/macros/s/AKfycbwKFPQCnOibfwMuik9QqP2lR_0EuUijBlMAoTE8oPtMPOKvW5P5Xh7UIGdoVcvvvUwb6A/exec'
+             const form = document.forms['google-sheet']
+
+             form.addEventListener('submit', e => {
+             e.preventDefault()
+             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+             .then(response => console.log('Success!', response))
+             .catch(error => console.error('Error!', error.message))
+             })
+  </script>
+
  </div>
 </div>   
 </div>
