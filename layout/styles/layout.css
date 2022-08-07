@@ -792,10 +792,10 @@ label span{color:#FF0000; background-color:inherit;}
     position: absolute;
     z-index: -1;
     background: #a64bf4;
-    background: -webkit-linear-gradient(left,#ffec00,#eeaeca,#ffec00,#eeaeca);
-    background: -o-linear-gradient(left,#ffec00,#eeaeca,#ffec00,#eeaeca);
-    background: -moz-linear-gradient(left,#ffec00,#eeaeca,#ffec00,#eeaeca);
-    background: linear-gradient(left,#ffec00,#eeaeca,#ffec00,#eeaeca);
+    background: -webkit-linear-gradient(left,#686427,#686427,#686427,#eeaeca);
+    background: -o-linear-gradient(left,#686427,#686427,#686427,#eeaeca);
+    background: -moz-linear-gradient(left,#686427,#686427,#ffec00,#eeaeca);
+    background: linear-gradient(left,#686427,#686427,#686427,#eeaeca);
     top: 0;
     left: -100%;
     -webkit-transition: all .4s;
