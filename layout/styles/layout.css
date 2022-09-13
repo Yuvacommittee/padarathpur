@@ -761,10 +761,10 @@ label span{color:#FF0000; background-color:inherit;}
     position: absolute;
     z-index: -1;
     background: #a64bf4;
-    background: -webkit-linear-gradient(left,#52de00,#f409d9,#09f41f,#00e7ff);
-    background: -o-linear-gradient(left#52de00,#f409d9,#09f41f,#00e7ff);
-    background: -moz-linear-gradient(left,#52de00,#f409d9,#09f41f,#00e7ff);
-    background: linear-gradient(left,#52de00,#f409d9,#09f41f,#00e7ff);
+    background: -webkit-linear-gradient(left,#52de00,#d15f73,#4a624c,#00e7ff);
+    background: -o-linear-gradient(left,#52de00,#d15f73,#4a624c,#00e7ff);
+    background: -moz-linear-gradient(left,#52de00,#d15f73,#4a624c,#00e7ff);
+    background: linear-gradient(left,#52de00,#d15f73,#4a624c,#00e7ff);
     top: 0;
     left: -100%;
     -webkit-transition: all .4s;
