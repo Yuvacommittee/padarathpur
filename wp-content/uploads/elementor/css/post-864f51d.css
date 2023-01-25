@@ -130,25 +130,4 @@ ul.wc-tabs li{
 	font-display: auto;
 	src: url('../../2022/02/Ilisarniq-Bold.ttf') format('truetype');
 }
-
-
 /* End Custom Fonts CSS */
-
-* ab tak hue langer */
-.change_content:after{
-  content: '';
-  animation: chnagetext 10s infinite linear;
-  color: whitesmoke;
-
-}
-
-@keyframes chnagetext{
- 0%{ content:"  नियाज़ ए ख्वाजा गरीब नवाज़-5-मार्च-2020    "; }
-  20%{ content:" नियाज़ ए मोहर्रम लंगर-31-अगस्त-2020 "; }
-  40%{ content:"  नियाज़ ए ख्वाजा गरीब नवाज़-4-फरबरी-2021  "; }
-  60%{ content:" नियाज़ ए मोहर्रम लंगर-20-अगस्त-2021 "; }
-  100%{ content:"  नियाज़ ए ख्वाजा गरीब नवाज़-8-फरबरी-2022  "; }
-  
-  
-
-}

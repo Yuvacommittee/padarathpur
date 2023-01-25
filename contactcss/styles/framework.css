@@ -58,6 +58,24 @@ hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
 .rounded{margin:0; padding:10px;}
 
 
+
+h1, .heading {
+    display: block;
+    margin: 0 0 20px 0;
+    background: linear-gradient(90deg, #ff0000,#ffff00, #ff00f3, #0033ff, #00ffe7, #ff0000);
+    background-size: 400%;
+    font-size: 50px;
+    font-family: sans-serif;
+    line-height: normal;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
 /* HTML 5 Overrides
 --------------------------------------------------------------------------------------------------------------- */
 address, article, aside, figcaption, figure, footer, header, main, nav, section{display:block; margin:0; padding:0;}

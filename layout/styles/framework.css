@@ -54,7 +54,7 @@ h2, .heading{display:block; margin:0 0 20px 0; font-size:30px; line-height:norma
 address{font-style:normal; font-weight:normal;}
 hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
 
-.wrapper{display:block; margin:0 auto 20px; text-align:center; word-wrap:break-word;}
+.wrapper{display:block; margin:0 auto 20px; text-align:center; word-wrap:break-word; float: left;}
 .wrapper1{display:block; margin:0 auto 20px; text-align:left; word-wrap:break-word;}
 
 .rounded, #topbar, #header, #mainav, #slider, .container, #footer, #copyright{display:block; width:100%; box-sizing:border-box;}
